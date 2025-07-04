@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f7e6f0; /* Un rosado suave */
+    color: #333;
+}
+
+/* Estilos para la página de inicio (index.html) */
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.container h1 {
+    color: #e91e63; /* Un rosa vibrante */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ff4081; /* Un rosa más intenso */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: translateY(-2px);
+}
